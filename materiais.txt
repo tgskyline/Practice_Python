@@ -1,0 +1,4 @@
+caneta
+caderno
+lapis
+livro
