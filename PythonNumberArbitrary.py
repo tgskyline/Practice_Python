@@ -1,5 +1,5 @@
 def imprime_notas(nome, *notas):
-    print("Aluno(a): " + nome)
+    print("Aluno(a): " + str(nome))
     for nota in notas:
         print(nota)
 
