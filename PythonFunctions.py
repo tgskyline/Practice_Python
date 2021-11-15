@@ -19,23 +19,34 @@ def mult(a,b):
     resultado =a*b
     return resultado
 
-saudação()
+def quadrado (a):
+    a = a ** 2
+    print("Variável (a) dentro da função após modificação: " + str(a))
+    return a
 
-soma(6,4)
-soma(3,3)
-soma(2,2)
-soma(1,1)
+a = 2
+print("Variável (a) fora da função antes da chamada: " + str(a))
+resultado = quadrado(a)
+print("Variável (a) fora da função depois da chamada: " + str(a))
+print(resultado)
 
-sub(6,4)
-sub(3,3)
-sub(2,2)
-sub(1,1)
+# saudação()
 
-sub(a=2, b=1)
-soma(a=51 ,b=49)
+# soma(6,4)
+# soma(3,3)
+# soma(2,2)
+# soma(1,1)
 
-calc(2,3,'sub')
-calc(2,3,'soma')
+# sub(6,4)
+# sub(3,3)
+# sub(2,2)
+# sub(1,1)
 
-resultado = mult(2,5)
-print("O resultado da multiplicação é: " + str (resultado))
+# sub(a=2, b=1)
+# soma(a=51 ,b=49)
+
+# calc(2,3,'sub')
+# calc(2,3,'soma')
+
+# resultado = mult(2,5)
+# print("O resultado da multiplicação é: " + str (resultado))
